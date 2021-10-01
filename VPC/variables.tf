@@ -17,10 +17,10 @@ variable "availability_zones" {
   default = ["us-east-1a", "us-east-1d"]
 }
 variable "ubuntuami" {
-  default = "ami-0b44050b2d893d5f7"
+  default = "ami-ami-09e67e426f25ce0d7"
 }
 variable "redhatami" {
-  default = "ami-052c08d70def0ac62"
+  default = "ami-ami-0b0af3577fe5e3532"
 }
 variable "key_name" {
   default = "devops"
